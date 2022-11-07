@@ -1,7 +1,9 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import BottomHeader from './components/BottomHeader/BottomHeader';
 import MiddleHeader from './components/MiddleHeader/MiddleHeader';
 import TopHeader from './components/TopHeader/TopHeader';
+import HomePage from './Pages/HomePage/HomePage';
 
 function App() {
   return (
@@ -16,7 +18,11 @@ function App() {
         </div>
       </header>
       {/* ---------------MAIN-PART---------------- */}
-      <main></main>
+      <main>
+        <Routes>
+          <Route path="/" element={<HomePage />}></Route>
+        </Routes>
+      </main>
       {/* ---------------Footer-PART-------------- */}
       <footer></footer>
     </div>
