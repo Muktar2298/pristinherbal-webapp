@@ -11,13 +11,13 @@
 }
 .topheader-area {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 /* CONTACT-INFO-STYLE */
 .topheader-item {
   position: relative;
-  margin: 0rem 3.5rem;
+  /* margin: 0rem 3.5rem; */
 }
 /* .vertical-line {
   position: absolute;
