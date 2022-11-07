@@ -17,6 +17,24 @@ code {
   margin: 0;
   box-sizing: border-box;
 }
+/* --------------------------------COLOR VARIABLES----------------------- */
+:root {
+  --primary-color: #28b100;
+  --menu-active-color: #ffffff;
+  --menu-bg-color: #fcb800;
+  --menu-text-color: #f1f1f1;
+  --primary-font: 'Poppins', sans-serif;
+  --profile-sidebar: #fcb80010;
+  --sidebar-base-color: #28b10020;
+  --btn-bg-color: #0b8b05;
+  --btn-txt-color: #ffffff;
+  --btn-bdr-color: #333333;
+}
+/* ---------------------------------TRANSITIONS VARIABLES------------------- */
+:root {
+  --vs-transition-timing-function: cubic-bezier(1,0.5,0.8,1);
+  --vs-transition-duration: 0.15s;
+}
 
 header,
 main,

@@ -1,4 +1,5 @@
 import React from 'react';
+import BottomHeader from './components/BottomHeader/BottomHeader';
 import MiddleHeader from './components/MiddleHeader/MiddleHeader';
 import TopHeader from './components/TopHeader/TopHeader';
 
@@ -11,6 +12,7 @@ function App() {
         <div>
           <TopHeader />
           <MiddleHeader />
+          <BottomHeader />
         </div>
       </header>
       {/* ---------------MAIN-PART---------------- */}
