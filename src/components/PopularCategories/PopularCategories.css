@@ -1,0 +1,41 @@
+.popular-categories-container {
+  background-color: #ffffff;
+  padding: 1rem 0rem;
+  margin-top: 2rem;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+}
+.popular-categories-container .popular-categories-title {
+  display: flex;
+  justify-content: space-between;
+}
+.popular-categories-title p:first-child {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+/* -------------------------POPULAR CATEGORIES----------------- */
+.popular-categories {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 0.5rem;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  .popular-categories {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* .popular-category h5 {
+    margin-top: 0.5rem;
+  } */
+  .popular-categories-title p:first-child {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+  .popular-categories {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
