@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Categories from '../../components/Categories/Categories';
+import Slider from '../../components/Slider/Slider';
 import './HomePage.css';
 
 const HomePage = () => {
@@ -14,7 +15,9 @@ const HomePage = () => {
             <Categories />
           </div>
           {/* SLIDER & SLIDER INFO */}
-          <div className="slider-img"></div>
+          <div className="slider-info">
+            <Slider />
+          </div>
         </div>
       </div>
     </Container>

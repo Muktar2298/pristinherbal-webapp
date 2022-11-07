@@ -1,0 +1,10 @@
+.carousel {
+  border-radius: 0.3rem;
+}
+.carousel img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 0.3rem;
+}
