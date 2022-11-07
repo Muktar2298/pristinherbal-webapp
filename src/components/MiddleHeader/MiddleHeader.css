@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.middle-header {
+  margin-top: 2rem;
+}
+/* LOGO*/
+.logo img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* SEARCH BAR */

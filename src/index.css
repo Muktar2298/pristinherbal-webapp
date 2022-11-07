@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header,
+main,
+footer {
+  max-width: 100%;
+  height: 100%;
+}
+
+/* -----------------------------------------HEADER-PART-STYLE------------------------------------------- */
