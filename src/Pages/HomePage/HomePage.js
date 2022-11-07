@@ -21,7 +21,7 @@ const HomePage = () => {
           </div>
         </div>
         {/* ------POPULAR CATEGORIES------- */}
-        <div>
+        <div className='popular-categories-main-container'>
           <PopularCategories />
         </div>
       </div>

@@ -1,8 +1,12 @@
 .popular-categories-container {
   background-color: #ffffff;
   padding: 1rem 0rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+  border: 1px solid var(--menu-text-color);
+  border-radius: 0.3rem;
+  padding: 1rem;
+
 }
 .popular-categories-container .popular-categories-title {
   display: flex;
@@ -29,8 +33,12 @@
     margin-top: 0.5rem;
   } */
   .popular-categories-title p:first-child {
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  .popular-categories-title p:last-child {
+    font-size: 0.8rem;
+    font-weight: bold;
   }
 }
 

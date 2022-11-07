@@ -20,7 +20,7 @@ const PopularCategories = () => {
           </span>
         </p>
       </div>
-      {/* <hr /> */}
+      <hr className='horizontal' />
       <div className="popular-categories">
         {popularCategoriesData.map((category) => (
           <PopularCategory
