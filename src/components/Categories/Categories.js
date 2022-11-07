@@ -55,7 +55,12 @@ const Categories = () => {
           <span className="categories-name">Seasonal</span>
         </li>
         <li>
-          <span className="categories-name">View All Categories</span>
+          <span
+            className="categories-name"
+            style={{ fontWeight: '500', color: 'green' }}
+          >
+            View All Categories
+          </span>
           <span className="categories-icon">
             <GoTriangleRight style={{ marginLeft: '1rem' }} />
           </span>
