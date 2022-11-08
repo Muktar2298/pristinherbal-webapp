@@ -17,7 +17,7 @@
   font-weight: 500;
 }
 
-/* -------------------------POPULAR CATEGORIES----------------- */
+/* -------------------------TODAY DEALS----------------- */
 .today-deals {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
