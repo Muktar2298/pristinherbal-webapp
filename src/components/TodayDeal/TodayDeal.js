@@ -6,7 +6,7 @@ import { FaStar } from 'react-icons/fa';
 const TodayDeal = (props) => {
   const product = props.product;
   const { price } = product;
-  console.log(price);
+  // console.log(price);
 
   const productPrice = parseFloat(product.price);
 
