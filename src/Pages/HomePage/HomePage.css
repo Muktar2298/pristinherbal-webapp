@@ -29,9 +29,16 @@
 
 /* ---------------------------POPULAR CATEGORIES------------------ */
 .popular-categories-main-container {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .horizontal {
   color: rgba(128, 128, 128, 0.514);
   /* border: 1px solid var(--menu-text-color); */
+}
+
+
+
+/* -------------------------TODAY-DEALS---------------------------- */
+.today-deals-main-container {
+  margin-top: 2rem;
 }

@@ -6,7 +6,6 @@
   border: 1px solid var(--menu-text-color);
   border-radius: 0.3rem;
   padding: 1rem;
-
 }
 .popular-categories-container .popular-categories-title {
   display: flex;
@@ -22,8 +21,8 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
 }
-
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
   .popular-categories {

@@ -1,0 +1,55 @@
+/* .popular-category{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+} */
+
+.today-deal {
+  text-align: center;
+  border: 1px solid var(--menu-text-color);
+  border-radius: 0.3rem;
+  padding: 0.5rem 0rem;
+}
+.today-deal:hover {
+  border: 1px solid var(--menu-text-color);
+  transition: 1s;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+}
+.today-deal img {
+  display: block;
+  width: 100%;
+  max-width: 90%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+.today-deal h6 {
+  margin-top: 0.6rem;
+}
+.today-deal .product-name {
+  font-weight: bold;
+  color: #131212c8;
+}
+.today-deal .product-name:hover {
+  color: var(--primary-color);
+  transition: 1s;
+}
+.today-deal .product-price {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  color: var(--primary-color);
+  font-weight: bolder;
+}
+.today-deal .price-discount {
+  /* text-align: left; */
+  font-size: 13px;
+  color: grey;
+}
+
+.today-deal .star{
+    /* margin: 0rem 1rem; */
+   font-size: 15px;
+   margin-bottom: 0.5rem;
+   /* color: var(--btn-bg-color); */
+   color: #7ef45bf6;
+}
