@@ -24,7 +24,12 @@ function App() {
         </Routes>
       </main>
       {/* ---------------Footer-PART-------------- */}
-      <footer></footer>
+      <footer style={{marginTop:"3rem"}}>
+        <p style={{textAlign:"center"}}>
+          © Copyright 2022, All Rights Reserved By Bee Technology and Research
+          Hub
+        </p>
+      </footer>
     </div>
   );
 }
