@@ -43,3 +43,12 @@ const todayDealsData = [
   // }
 ];
 export default todayDealsData;
+
+// ------------------------SHUFFOLING------------------------//
+// function shuffletodayDealsData(todayDealsData) {
+//   for (let i = todayDealsData.length - 1; i > 0; i--) {
+//       const j = Math.floor(Math.random() * (i + 1));
+//       [todayDealsData[i], todayDealsData[j]] = [todayDealsData[j], todayDealsData[i]];
+//   }
+// }
+// export default shuffletodayDealsData;

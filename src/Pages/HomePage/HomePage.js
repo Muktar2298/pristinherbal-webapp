@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Categories from '../../components/Categories/Categories';
+import LatestProducts from '../../components/LatestProducts/LatestProducts';
 import PopularCategories from '../../components/PopularCategories/PopularCategories';
 import Slider from '../../components/Slider/Slider';
 import TodayDeals from '../../components/TodayDeals/TodayDeals';
@@ -28,6 +29,9 @@ const HomePage = () => {
         {/* ------------TODAY-DEALS-----------*/}
         <div className="today-deals-main-container">
           <TodayDeals />
+        </div>
+        <div className="today-deals-main-container">
+          <LatestProducts />
         </div>
       </div>
     </Container>
