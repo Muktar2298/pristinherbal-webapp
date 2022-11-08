@@ -25,7 +25,9 @@ const MiddleHeader = () => {
         <div className="middle-header-container">
           {/* LOGO */}
           <div className="logo middle-header-item">
-            <img src={logo2} alt="" />
+            <Link to="/">
+              <img src={logo2} alt="" />
+            </Link>
           </div>
           {/* SearchBar */}
           <div className="main-searchbar searchbar middle-header-item">
